@@ -1,0 +1,25 @@
+.accession__net-list {
+	@extend %net-list;
+}
+
+.accession__title {
+	color: $text-wight;
+	margin-bottom: 20px;
+
+	line-height: 1.15;
+	font-weight: 700;
+}
+
+.accession__net-icon {
+	fill: #ffffff;
+	@extend %net-icon;
+}
+
+.accession__net-link {
+	background-color: rgba(255, 255, 255, 0.1);
+	@extend %net-link;
+}
+
+.accession__net-link:hover {
+	background-color: $accent-color;
+}

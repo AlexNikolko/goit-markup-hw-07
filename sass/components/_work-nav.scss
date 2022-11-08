@@ -1,0 +1,16 @@
+.work-nav {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.work-nav__list {
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+	@extend %list;
+}
+
+.work-nav__list li+li {
+	margin-left: 8px;
+}

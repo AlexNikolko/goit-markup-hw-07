@@ -1,0 +1,69 @@
+.comand__section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+
+	background-color: #F5F4FA;
+}
+
+.comand__container-list {
+	display: flex;
+	@extend %list;
+}
+
+.comand__card {
+	width: 270px;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+		0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+		0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+	background: #ffffff;
+}
+
+.comand__container-list {
+	gap: 30px;
+}
+
+.comand__meta {
+	text-align: center;
+	padding: 30px 0;
+}
+
+.comand__section-name {
+	margin: 0;
+	margin-bottom: 10px;
+	color: $title-text-color;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.18;
+	letter-spacing: 0.03em;
+}
+
+.comand__profession {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.18;
+	letter-spacing: 0.03em;
+	margin: 0;
+	padding-bottom: 16px;
+}
+
+.comand__net-list {
+	@extend %net-list;
+}
+
+.comand__net-link {
+	@extend %net-link;
+}
+
+.comand__net-link:hover {
+	background-color: $accent-color;
+}
+
+.comand__net-link:hover .comand__net-icon {
+	fill: $text-wight;
+}
+
+.comand__net-icon {
+	@extend %net-icon;
+}

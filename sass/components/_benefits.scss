@@ -1,0 +1,31 @@
+.benefits__section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.benefits__list {
+	display: flex;
+}
+
+.benefits__list li+li {
+	margin-left: 30px;
+}
+
+.benefits__title {
+	margin: 0;
+	margin-bottom: 10px;
+	color: $title-text-color;
+	font-weight: 700;
+	line-height: 1.14;
+
+}
+
+.benefits__link {
+	height: 120px;
+	margin-bottom: 30px;
+	background-color: $button-sec-color;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
