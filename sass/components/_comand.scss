@@ -1,4 +1,4 @@
-.comand__section {
+.comand {
 	padding-top: 94px;
 	padding-bottom: 94px;
 
@@ -48,7 +48,7 @@
 	padding-bottom: 16px;
 }
 
-.comand__net-list {
+.comand__net {
 	@extend %net-list;
 }
 
